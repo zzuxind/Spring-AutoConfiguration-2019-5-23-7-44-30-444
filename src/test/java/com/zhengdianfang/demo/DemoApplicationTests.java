@@ -22,7 +22,7 @@ public class DemoApplicationTests {
     public void testUserProperties() {
         Assert.assertEquals(user.getUsername(), "张三");
         Assert.assertEquals(user.getAge(), 14);
-        Assert.assertEquals(user.getAddress(), "北京市东城区 张三收");
+        Assert.assertEquals(user.getAddress(), "北京市城东区 张三收");
     }
 
 }
